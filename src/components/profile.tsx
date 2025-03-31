@@ -1,11 +1,10 @@
 import React from "react";
-import { SrDeveloper } from "./experience/srDeveloper";
-import { Kinedu } from "./experience/kinedu";
-import { Airmedia } from "./experience/airmedia";
+
 import { AboutMe } from "./experience/aboutme";
 import { Experience } from "./experience/experience";
 import { GitHubIcon } from "./icons/github";
 import { LinkedIn } from "./icons/linkedIn";
+import { Projects } from "./projects";
 
 export function Profile() {
   return (
@@ -33,6 +32,7 @@ export function Profile() {
       <main className="p-15 w-[70%] scroll h-[500px]">
         <AboutMe></AboutMe>
         <Experience></Experience>
+        <Projects></Projects>
       </main>
     </div>
   );
