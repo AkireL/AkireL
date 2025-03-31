@@ -1,19 +1,17 @@
 import React from "react";
 
-export function Touristic() {
+export function POS() {
   return (
-    <section id="post">
-      <h2>POS</h2>
+    <section id="pos">
+      <p className="text-3xl">POS</p>
       <p>Developing a desktop software for POS.</p>
 
-      <h2>Roles</h2>
+      <p className="text-2xl">Roles</p>
       <p>
         Responsibilities included: Business analysis, Scrum Master, and
         Technical Lead.
       </p>
-
-      <h2>Contribution</h2>
-
+      <p className="text-2xl">Contribution</p>
       <p>
         In the analysis and design stages, I defined the implementation based on
         a multi-tier architecture, including the database structure and the user
@@ -37,7 +35,7 @@ export function Touristic() {
         WPF, and SQL Server.
       </p>
 
-      <h2>Results</h2>
+      <p className="text-2xl">Results</p>
       <p>The final delivery fully satisfied all client requirements. </p>
       <img src="assets/img/portfolio/PagoDeLinea.png" alt="" />
       <img src="assets/img/portfolio/TPVVistaTableroBackOffice.png" alt="" />
@@ -46,7 +44,7 @@ export function Touristic() {
       <img src="assets/img/portfolio/TPVTrello.png" alt="" />
       <img src="assets/img/portfolio/Backoffice.png" alt="" />
       <img src="assets/img/portfolio/Sprint 3TPVTrello.png" alt="" />
-      <h2>Challenges</h2>
+      <p className="text-2xl">Challenges</p>
       <p>
         This project taught me the importance of clear and concise
         communication, as well as the ability to work effectively as a team,
