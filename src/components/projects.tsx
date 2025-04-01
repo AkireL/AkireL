@@ -1,14 +1,29 @@
 import React from "react";
 import { projects } from "../data/projects";
 import { Link } from "react-router-dom";
+import Model from "./model";
+import { useState } from 'react'
 
 export function Projects() {
+  const [open, setOpen] = useState(false);
+  const [id, setId] = useState<number | null>(null);
+  
+  function onShow(index: number) {
+    setOpen(true);
+    setId(index);
+  }
+
+  function clear() {
+    setOpen(false);
+    setId(null);
+  }
+
   return (
     <section id="projects">
       <h1 className="text-2xl">Projects</h1>
       <ul>
         {projects.map((item, index) => (
-          <li key={index} className="m-1 p-5 rounded-lg hover:shadow-md">
+          <li key={index} className="m-1 p-5 rounded-lg hover:shadow-md" onClick={() => onShow(index)}>
             <div className="flex flex-column gap-1">
               <div className="w-[20%]">
                 <img src={item.img_main} />
@@ -30,6 +45,10 @@ export function Projects() {
           </li>
         ))}
       </ul>
+      {
+        open ? 
+        (<Model id={id} fnClear={clear}></Model>): ''
+      }
     </section>
   );
 }

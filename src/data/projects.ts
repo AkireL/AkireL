@@ -8,8 +8,18 @@ export const projects = [
         "roles":"The roles performed: analysis collaborator and developer. I worked collaboratively with the project leader.",
         "technologies":{
             "description": "",
-            "frontend": [],
-            "backend": [],
+            "frontend": [
+                "HTML",
+                "CSS",
+                "jQuery",
+            ],
+            "backend": [
+                "Python",
+                "Django",
+                "PostgreSQL",
+                "Django Rest Framework",
+                "Blender"
+            ],
         },
         "results": {
             "description": "In the final delivery, all requirements were met.",
@@ -46,10 +56,17 @@ export const projects = [
         "description": "Project focused on invoicing fiscal receipts according to version 3.3 of the Tax Administration Service (SAT).",
         "url_name": "billing",
         "roles":"The roles performed were: researcher, software engineer, and web developer.",
-        "technologies":{
+        "technologies": {
             "description": "",
-            "frontend": [],
-            "backend": [],
+            "frontend": [
+                "Bootstrap 3",
+                "jQuery",
+            ],
+            "backend": [
+                "c#",
+                "ASP .Net MVC",
+                "SQL Server",
+            ],
         },
         "contribution":"The language used was C# with the ASP .Net MVC framework, and for data persistence, SQL Server was used. For the frontend, Bootstrap 3 and jQuery were utilized.",
         "results": {
