@@ -13,6 +13,10 @@ const Project = ({ id, fnClear }: { id: number; fnClear: () => void }) => {
         }
     }, [id]);
 
+    const styleResults  = item?.results.images?.length > 1 ? "rounded shadow-md relative flex w-full snap-x snap-mandatory overflow-x-auto pb-1": "flex flex-column";
+    const styleImgResults  = item?.results.images?.length > 1 ? "w-[70%] rounded-lg": "";
+    const styleDivResults  = item?.results.images?.length > 1 ? "shrink-0 snap-center": "";
+
   return (
     <div
       className="relative z-10"
@@ -76,13 +80,13 @@ const Project = ({ id, fnClear }: { id: number; fnClear: () => void }) => {
                         }
 
                         {
-                            item?.results.images? 
+                            item?.results.images.length > 0? 
 
-                            <div className="flex flex-column">
+                            <div className={styleResults}>
                                 {
                                     item.results.images.map((item, i) => (
-                                        <div key={i}>
-                                            <img src={item}></img>
+                                        <div key={i} className={styleDivResults}>
+                                            <img src={item} className={styleImgResults}></img>
                                         </div>
                                     ))
                                 }
