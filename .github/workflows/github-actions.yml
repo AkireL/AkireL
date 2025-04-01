@@ -9,16 +9,35 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
+      # Paso 1: Checkout del código
       - name: Checkout
         uses: actions/checkout@v4
+
+      # Paso 2: Instalar Node.js
       - name: Download Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
+
+      # Paso 3: Instalar dependencias
       - name: Install dependencies
         run: npm ci
+
+      # Paso 4: Generar el build
       - name: Build
         run: npm run build
+
+      # Paso 5: Verificar archivos generados en dist
+      - name: Check generated files
+        run: ls -R ./dist
+
+      # Paso 6: Limpiar el caché de GitHub Pages (opcional, para evitar problemas con el cache)
+      - name: Clear cache on GitHub Pages
+        run: |
+          git rm -rf .
+          git clean -fdx
+
+      # Paso 7: Desplegar en GitHub Pages
       - name: Build & Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
