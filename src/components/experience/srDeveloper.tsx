@@ -43,19 +43,20 @@ export function SrDeveloper() {
           </li>
         </ul>
         <ul className="flex flex-wrap gap-1">
+            <Chips title="Docker"></Chips>
             <Chips title="PHP"></Chips>
             <Chips title="Laravel"></Chips>
+            <Chips title="PHPUnit"></Chips>
+            <Chips title="LLM"></Chips>
+            <Chips title="MySQL"></Chips>
+            <Chips title="Inertia"></Chips>
+            <Chips title="Python"></Chips>
+            <Chips title="Microservices"></Chips>
             <Chips title="Vuejs"></Chips>
             <Chips title="JavaScript"></Chips>
             <Chips title="Typescript"></Chips>
-            <Chips title="Microservices"></Chips>
             <Chips title="Vuetify"></Chips>
-            <Chips title="Python"></Chips>
             <Chips title="Storybook"></Chips>
-            <Chips title="Docker"></Chips>
-            <Chips title="MySQL"></Chips>
-            <Chips title="LLM"></Chips>
-            <Chips title="Inertia"></Chips>
             <Chips title="Tailwindcss"></Chips>
         </ul>
       </div>
