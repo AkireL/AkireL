@@ -1,7 +1,7 @@
 export const projects = [
   {
     title: "Vector field simulator",
-    img_main: "portfolio/simulador.png",
+    img_main: "images/portfolio/simulador.png",
     description:
       "Web application for simulating scenarios built with three-dimensional components that are protected by devices created by the research laboratory for protecting regions from atmospheric electrical discharges, and obtaining results that allow for informed decision-making.",
     url_name: "simulator",
@@ -20,7 +20,7 @@ export const projects = [
     },
     results: {
       description: "In the final delivery, all requirements were met.",
-      images: ["portfolio/simulador.png"],
+      images: ["images/portfolio/simulador.png"],
     },
     contribution:
       "I contributed to the search, analysis, and implementation of technologies that best suited the development. The first step was to gather and analyze the collected requirements, then search for the technologies to create a comparative chart of their advantages and disadvantages, with the goal of presenting conclusions and proposals. After presenting the proposal, it was adapted according to the non-functional requirements. During the first phase, the design and initial coding of the web system began using Python, Django, and several libraries for data handling and report generation; PostgreSQL was used for data persistence. The frontend consisted of HTML, CSS, and jQuery. For the backend, a RESTful API was implemented using Django Rest Framework. It is worth mentioning that the scenarios were modeled in Blender with 3D objects, specifically those used for protection against electrical discharges, which were created in the research laboratory.",
@@ -29,7 +29,7 @@ export const projects = [
   },
   {
     title: "Touristic",
-    img_main: "portfolio/turistico.png",
+    img_main: "images/portfolio/turistico.png",
     description:
       "This project was a prototype for managing and selling travel packages to the general public through company collaborators or sales representatives.",
     url_name: "touristic",
@@ -41,7 +41,7 @@ export const projects = [
     },
     results: {
       description: "All requirements were met in the final delivery.",
-      images: ["portfolio/turistico.png"],
+      images: ["images/portfolio/turistico.png"],
     },
     contribution:
       "As a web developer, I contributed to the frontend of the project, implementing HTML, CSS, and Bootstrap 3. I also participated in backend development, coding search queries using SQL Server and ASP.NET MVC 5.",
@@ -50,7 +50,7 @@ export const projects = [
   },
   {
     title: "Billing",
-    img_main: "portfolio/facturacion.png",
+    img_main: "images/portfolio/facturacion.png",
     description:
       "Project focused on invoicing fiscal receipts according to version 3.3 of the Tax Administration Service (SAT).",
     url_name: "billing",
@@ -65,13 +65,13 @@ export const projects = [
       "The language used was C# with the ASP .Net MVC framework, and for data persistence, SQL Server was used. For the frontend, Bootstrap 3 and jQuery were utilized.",
     results: {
       description: "In the final delivery, all requirements were met.",
-      images: ["portfolio/facturacion.png", "portfolio/Factura.png"],
+      images: ["images/portfolio/facturacion.png", "images/portfolio/Factura.png"],
     },
     experience: "",
   },
   {
     title: "POS",
-    img_main: "portfolio/TPV.png",
+    img_main: "images/portfolio/TPV.png",
     description: "Developing a desktop software for POS.",
     url_name: "pos",
     roles:
@@ -87,9 +87,9 @@ export const projects = [
     results: {
       description: "",
       images: [
-        "portfolio/PagoDeLinea.png",
-        "portfolio/TPVVistaTableroBackOffice.png",
-        "portfolio/GenerarNotificaciones.png",
+        "images/portfolio/PagoDeLinea.png",
+        "images/portfolio/TPVVistaTableroBackOffice.png",
+        "images/portfolio/GenerarNotificaciones.png",
       ],
     },
     experience:
@@ -97,7 +97,7 @@ export const projects = [
   },
   {
     title: "Commissions",
-    img_main: "portfolio/comisiones.png",
+    img_main: "images/portfolio/comisiones.png",
     description:
       "System for managing clients, products, employees, sales calculations, and commission payments.",
     url_name: "commissions",
@@ -113,14 +113,14 @@ export const projects = [
     results: {
       description:
         "In the final delivery, all requirements were met, a user manual was created, and the end users were trained.",
-      images: ["portfolio/comisiones.png"],
+      images: ["images/portfolio/comisiones.png"],
     },
     experience:
       "The initiative is key for professional development and the project's success; it was a challenge to communicate this to each team member. Clear and concise communication with appropriate language is very important for the team to feel motivated and valued.",
   },
   {
     title: "CRM",
-    img_main: "portfolio/CRM2.png",
+    img_main: "images/portfolio/CRM2.png",
     description:
       "Development of a CRM adapted to the operations of the sales department.",
     url_name: "crm",
@@ -134,14 +134,14 @@ export const projects = [
     contribution: "",
     results: {
       description: "In the final delivery, all requirements were met.",
-      images: ["portfolio/CRM.png"],
+      images: ["images/portfolio/CRM.png"],
     },
     experience:
       "The learning of a new technology during development with limited time was a primary challenge, as the situation involved constant changes in business logic. Once I became familiar with the new technology, I was able to recover the time spent on learning. Communication, cooperation, and the interest of the end client are undoubtedly vital for development.",
   },
   {
     title: "Questionnarie",
-    img_main: "portfolio/loginQR.jpg",
+    img_main: "images/portfolio/loginQR.jpg",
     description:
       "The project consisted of: an application for questionnaires to evaluate specific areas of hotel facilities and an application for managing questionnaires, users, and access for the applicants.",
     url_name: "questionnaire",
@@ -155,13 +155,13 @@ export const projects = [
     contribution: "",
     results: {
       description: "In the final delivery, all requirements were met.",
-      images: ["portfolio/qr.jpg", "portfolio/loginQR.jpg"],
+      images: ["images/portfolio/qr.jpg", "images/portfolio/loginQR.jpg"],
     },
     experience: "",
   },
   {
     title: "Extranet",
-    img_main: "portfolio/panelnoktos.jpg",
+    img_main: "images/portfolio/panelnoktos.jpg",
     description:
       "Development of an application for the management and administration of booking and pricing operations",
     url_name: "extranet",
@@ -174,7 +174,7 @@ export const projects = [
     contribution: "",
     results: {
       description: "In the final delivery, all requirements were met.",
-      images: ["portfolio/panelnoktos.jpg", "portfolio/login noktos.jpg"],
+      images: ["images/portfolio/panelnoktos.jpg", "images/portfolio/login noktos.jpg"],
     },
     experience:
       "It is very important to take initiative to gather the missing information and shape the requirements.",
