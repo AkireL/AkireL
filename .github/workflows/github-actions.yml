@@ -27,16 +27,6 @@ jobs:
       - name: Build
         run: npm run build
 
-      # Paso 5: Verificar archivos generados en dist
-      - name: Check generated files
-        run: ls -R ./dist
-
-      # Paso 6: Limpiar el caché de GitHub Pages (opcional, para evitar problemas con el cache)
-      - name: Clear cache on GitHub Pages
-        run: |
-          git rm -rf .
-          git clean -fdx
-
       # Paso 7: Desplegar en GitHub Pages
       - name: Build & Deploy
         uses: peaceiris/actions-gh-pages@v4
