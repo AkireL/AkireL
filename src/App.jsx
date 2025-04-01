@@ -6,10 +6,10 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename="/AkireL">
       <Routes>
         <Route>
-          <Route index element={<Profile />} />
+          <Route path="/" element={<Profile />} />
         </Route>
       </Routes>
     </BrowserRouter>
