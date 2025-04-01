@@ -7,8 +7,8 @@ import { fileURLToPath, URL } from 'node:url'
 export default defineConfig({
   base: '/AkireL/',
   plugins: [
-    react(),
     tailwindcss(),
+    react(),
   ],
   resolve: {
     alias: {
