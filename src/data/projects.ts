@@ -90,9 +90,6 @@ export const projects = [
         "portfolio/PagoDeLinea.png",
         "portfolio/TPVVistaTableroBackOffice.png",
         "portfolio/GenerarNotificaciones.png",
-        "portfolio/TPVTrello.png",
-        "portfolio/Backoffice.png",
-        "portfolio/Sprint 3TPVTrello.png",
       ],
     },
     experience:
