@@ -8,10 +8,10 @@ import { Projects } from "./projects";
 
 export function Profile() {
   return (
-    <>
-      <div className="flex font-sans justify-between gap-4 h-[500px]">
-        <header className="py-15 pl-15 w-[30%] max-h-screen">
-          <h1 className="text-[48px]">Erika Leonor Basurto Munguia</h1>
+    <div>
+      <div className="flex font-sans justify-between gap-4">
+        <header className="py-15 pl-15 w-[30%]">
+          <h1 className="text-[48px]">Erika L. Basurto</h1>
           <div className="text-sm mb-5">
             Full Stack Developer | Backend Developer | AI Integration
           </div>
@@ -45,16 +45,16 @@ export function Profile() {
           </div>
         </header>
 
-        <main className="p-15 w-[70%] scroll h-[500px]">
+        <main className="p-15 w-[70%]">
           <AboutMe></AboutMe>
           <Experience></Experience>
           <Projects></Projects>
         </main>
       </div>
-      <div>
+      <div className="bg-gray-100">
         <hr className="text-gray-300"></hr>
-        <div className="mx-12 mt-2">© 2025 tailwindcss, react.js</div>
+        <div className="px-12 p-5">© 2025 tailwindcss, react.js</div>
       </div>
-    </>
+    </div>
   );
 }
