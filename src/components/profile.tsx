@@ -8,7 +8,7 @@ import { Projects } from "./projects";
 
 export function Profile() {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <div className="flex font-sans justify-between gap-4">
         <header className="py-15 pl-15 w-[30%]">
           <h1 className="text-[48px]">Erika L. Basurto</h1>
@@ -45,13 +45,13 @@ export function Profile() {
           </div>
         </header>
 
-        <main className="p-15 w-[70%]">
+        <main className="p-15 w-[70%] h-[80vh] overflow-y-auto">
           <AboutMe></AboutMe>
           <Experience></Experience>
           <Projects></Projects>
         </main>
       </div>
-      <div className="bg-gray-100">
+      <div className="bg-gray-100 mt-auto">
         <hr className="text-gray-300"></hr>
         <div className="px-12 p-5">© 2025 tailwindcss, react.js</div>
       </div>
