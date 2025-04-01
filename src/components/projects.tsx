@@ -1,7 +1,7 @@
 import React from "react";
 import { projects } from "../data/projects";
 import { Link } from "react-router-dom";
-import Model from "./model";
+import Project from "./project";
 import { useState } from 'react'
 
 export function Projects() {
@@ -46,8 +46,9 @@ export function Projects() {
         ))}
       </ul>
       {
-        open ? 
-        (<Model id={id} fnClear={clear}></Model>): ''
+        open && id !== null && (
+          <Project id={id} fnClear={clear}></Project>
+        )
       }
     </section>
   );

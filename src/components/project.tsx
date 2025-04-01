@@ -1,11 +1,12 @@
 import React from "react";
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { projects } from "../data/projects";
+import { projectInterface } from "../types";
 
-const Model = ({id, fnClear}) => {
-    const [item, setItem] = useState(null);
+const Project = ({ id, fnClear }: { id: number; fnClear: () => void }) => {
+    const [item, setItem] = useState<projectInterface | null>(null);
 
-    React.useEffect(() => {
+    useEffect(() => {
         const project = projects[id];
         if (project) {
             setItem(project);
@@ -117,4 +118,4 @@ const Model = ({id, fnClear}) => {
     </div>
   );
 };
-export default Model;
+export default Project;
