@@ -1,4 +1,5 @@
 import React from "react";
+import { Chips } from "../chips";
 
 export function Airmedia() {
     return (
@@ -12,6 +13,14 @@ export function Airmedia() {
             <li className="hover:bg-gray-50">API REST Development</li>
             <li className="hover:bg-gray-50">Integration with SOAP web services and REST API</li>
             <li className="hover:bg-gray-50">Development plugin Wordpress</li>
+        </ul>
+        <ul className="flex flex-column gap-1">
+            <Chips title="PHP"></Chips>
+            <Chips title="Laravel"></Chips>
+            <Chips title="Codeigniter"></Chips>
+            <Chips title="WordPress"></Chips>
+            <Chips title="REST API"></Chips>
+            <Chips title="MySQL"></Chips>
         </ul>
     </div>
     </>
