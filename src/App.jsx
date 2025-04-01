@@ -1,4 +1,3 @@
-import "tailwindcss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Profile } from './components/profile';
 
