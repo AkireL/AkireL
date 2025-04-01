@@ -14,13 +14,5 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  },
-  esbuild: {
-    loader: 'jsx', // Asegura que ESBuild procese JSX
-  },
-  server: {
-    headers: {
-      "Content-Type": "application/javascript",
-    },
-  },
+  }
 })
