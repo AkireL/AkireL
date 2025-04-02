@@ -1,5 +1,3 @@
-import React from "react";
-
 import { AboutMe } from "./experience/aboutme";
 import { Experience } from "./experience/experience";
 import { GitHubIcon } from "./icons/github";

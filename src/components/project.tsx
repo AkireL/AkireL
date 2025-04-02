@@ -1,4 +1,3 @@
-import React from "react";
 import { useState, useEffect } from "react";
 import { projects } from "../data/projects";
 import { projectInterface } from "../types";
