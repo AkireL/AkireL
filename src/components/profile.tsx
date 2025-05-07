@@ -43,14 +43,13 @@ export function Profile() {
           </div>
         </header>
 
-        <main className="p-15 w-[70%] h-[80vh] overflow-y-auto">
+        <main className="p-15 w-[70%] h-[90vh] overflow-y-auto">
           <AboutMe></AboutMe>
           <Experience></Experience>
           <Projects></Projects>
         </main>
       </div>
       <div className="bg-gray-100 mt-auto">
-        <hr className="text-gray-300"></hr>
         <div className="px-12 p-5">© 2025 tailwindcss, react.js</div>
       </div>
     </div>
