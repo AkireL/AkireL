@@ -7,8 +7,8 @@ import { Projects } from "./projects";
 export function Profile() {
   return (
     <div className="flex flex-col min-h-screen">
-      <div className="flex font-sans justify-between gap-4">
-        <header className="py-15 pl-15 w-[30%]">
+      <div className="flex lg:flex-row md:flex-col font-sans justify-between gap-4">
+        <header className="pt-15 pl-15 lg:w-[30%]">
           <h1 className="text-[48px]">Erika L. Basurto</h1>
           <div className="text-sm mb-5">
             Full Stack Developer | Backend Developer | AI Integration
@@ -43,7 +43,7 @@ export function Profile() {
           </div>
         </header>
 
-        <main className="p-15 w-[70%] h-[90vh] overflow-y-auto">
+        <main className="px-15 lg:pt-15 lg:w-[70%] h-[90vh] lg:overflow-y-auto">
           <AboutMe></AboutMe>
           <Experience></Experience>
           <Projects></Projects>
