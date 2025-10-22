@@ -6,7 +6,7 @@ const tab = ref(1)
 </script>
 
 <template>
-  <main>pabo
+  <main>
     <div class="m-12 pa-4">
       <v-tabs v-model="tab" align-tabs="center" role="tablist">
         <v-tab :value="1" aria-controls="about-me">About me</v-tab>
