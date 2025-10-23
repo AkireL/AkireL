@@ -34,7 +34,7 @@ import { VCard, VRow, VCol } from 'vuetify/components'
     <v-row justify="center" class="mt-6">
       <v-col cols="12" md="10" lg="8">
         <v-card elevation="3" class="pa-6" color="primary" variant="tonal">
-          <p class="text-body-1 text-center mb-0 text-justify">
+          <p class="text-body-1 text-center mb-0">
             Senior Backend Developer specialized in scalable solutions, microservices migration & AI
             integration
           </p>
