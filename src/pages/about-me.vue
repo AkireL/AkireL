@@ -36,7 +36,7 @@ import { VCard, VRow, VCol } from 'vuetify/components'
         <v-card elevation="3" class="pa-6" color="primary" variant="tonal">
           <p class="text-body-1 text-center mb-0">
             Senior Backend Developer specialized in scalable solutions, microservices migration & AI
-            integration
+            integration.
           </p>
         </v-card>
       </v-col>
