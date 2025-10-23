@@ -48,7 +48,7 @@ import { VCard, VRow, VCol } from 'vuetify/components'
         <p class="text-body-1 text-justify">
           I'm a Senior Backend Developer who loves turning complex systems into elegant, scalable
           solutions. My expertise lies in Laravel and Python ecosystems, and I have a special knack
-          for breathing new life into legacy code transforming monolithic architectures into
+          for breathing new life into legacy code by transforming monolithic architectures into
           modular, maintainable systems.
         </p>
         <p class="text-body-1 mt-3 text-justify">
@@ -65,7 +65,7 @@ import { VCard, VRow, VCol } from 'vuetify/components'
         <h2 class="text-h4 mb-4">Beyond the code 🌟</h2>
         <v-card elevation="2" class="pa-5" color="secondary" variant="tonal">
           <p class="text-body-1 text-justify">
-            I focus on code quality through practical approaches: self documenting variable names,
+            I focus on code quality through practical approaches: self-documenting variable names,
             avoiding code duplication, and maintaining low cognitive and cyclomatic complexity.
             Test-driven development and design patterns? I use them when they add real value, not
             just for the sake of it. Clear communication and problem solving aren't just soft skills

@@ -136,16 +136,12 @@ import {
               <v-card-subtitle class="text-h6">Cyberpuerta</v-card-subtitle>
               <v-card-text class="px-8 text-body-1">
                 <ul>
-                  <li>
-                    Fine-tuned DistilBERT to classify product reviews into specific categories
-                  </li>
-                  <li>Built an AI-driven PC recommendation system for non-expert users</li>
-                  <li>Automated content classification using OpenAI</li>
-                  <li>Developed a reusable frontend component library</li>
-                  <li>Designed migration strategy from monolithic to modular architecture</li>
-                  <li>
-                    Refactored legacy systems to enhance performance and reduce technical debt
-                  </li>
+                  <li>Implemented and fine-tuned a DistilBERT model for automated product review classification, improving data analysis efficiency and enabling targeted marketing strategies.</li>
+                  <li>Developed an AI-driven PC recommendation system for non-expert users, increasing user engagement and conversion rates by simplifying product discovery.</li>
+                  <li>Automated content classification workflows using OpenAI APIs, reducing manual effort and ensuring consistent categorization across the platform.</li>
+                  <li>Designed and developed a reusable frontend component library, accelerating development cycles and ensuring a consistent UI across multiple applications.</li>
+                  <li>Architected and initiated the migration from a monolithic to a modular microservices architecture, laying the groundwork for enhanced system resilience and independent team development.</li>
+                  <li>Successfully refactored critical legacy systems, performance improvement and a substantial reduction in technical debt, facilitating smoother feature development.</li>
                 </ul>
               </v-card-text>
             </v-card>
@@ -160,9 +156,10 @@ import {
               <v-card-subtitle class="text-h6">Kinedu</v-card-subtitle>
               <v-card-text class="px-8 text-body-1">
                 <ul>
-                  <li>Developed RESTful APIs for microservices in Laravel</li>
-                  <li>Integrated Stripe payment system with subscriptions and billing</li>
-                  <li>Improved web app modules using Livewire and Alpine.js</li>
+                  <li>Designed and implemented robust RESTful APIs using Laravel for new microservices, enabling seamless data exchange and supporting critical business functionalities.</li>
+                  <li>Optimized microservice endpoints by eliminating N+1 query issues and refining SQL queries, significantly improving backend response times and overall application performance.</li>
+                  <li>Successfully integrated the Stripe payment gateway, enabling secure subscription management and automated billing processes, which expanded revenue streams.</li>
+                  <li>Enhanced user experience and web app module interactivity by leveraging Livewire and Alpine.js, leading to more dynamic and responsive interfaces.</li>
                 </ul>
               </v-card-text>
             </v-card>

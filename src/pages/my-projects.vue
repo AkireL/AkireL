@@ -12,8 +12,9 @@ import { VCard, VCardActions, VChip, VRow, VCol, VCardText } from 'vuetify/compo
             <h3 class="text-h5 mb-2 pa-4" style="min-height: 65px">Kitchen Planner</h3>
             <v-card-text>
               <p class="text-body-1 text-justify">
-                Web app in development that generates automated weekly recipes and meal plans to
-                optimize meal planning and reduce decision fatigue.
+                A web application (Laravel, Vue.js, Python) in development designed to revolutionize
+                meal planning. It generates automated weekly recipes and meal plans, significantly
+                optimizing meal preparation and reducing decision fatigue for users.
               </p>
             </v-card-text>
             <v-card-actions>
@@ -27,8 +28,14 @@ import { VCard, VCardActions, VChip, VRow, VCol, VCardText } from 'vuetify/compo
             <h3 class="text-h5 mb-2 pa-4" style="min-height: 65px">AI-Powered PC Builder</h3>
             <v-card-text>
               <p class="text-body-1 text-justify">
-                Intelligent recommendation system that creates personalized PC builds based on user
-                needs, making tech accessible to everyone.
+                <strong>Challenge:</strong> Users often face significant complexity and
+                compatibility issues when building custom PCs, leading to suboptimal choices,
+                frustrating experiences, and potential returns. <br /><br />
+                <strong>Solution:</strong> Architected and developed an intelligent, AI-powered
+                recommendation system (PHP, Laravel, LLM, Microservices, Threads, MySQL). This
+                system dynamically generates personalized and fully compatible PC builds,
+                simplifying technical choices and making advanced technology accessible to a broader
+                audience.
               </p>
             </v-card-text>
             <v-card-actions>
@@ -44,10 +51,14 @@ import { VCard, VCardActions, VChip, VRow, VCol, VCardText } from 'vuetify/compo
             </h3>
             <v-card-text>
               <p class="text-body-1 text-justify" style="min-height: 200px">
-                The review team was drowning in manual moderation tasks, causing a massive backlog
-                products had zero reviews because approval was deprioritized. I implemented an LLM
-                that automated the entire workflow, freeing the team to focus on strategic work
-                while products finally gained the social proof they needed.
+                <strong>Challenge:</strong> The team faced an unsustainable backlog of manual review
+                approvals, causing delays in publishing product reviews. <br /><br />
+                <strong>Solution:</strong> I developed an automated solution leveraging an LLM to
+                intelligently classify reviews. This system eliminated the team's operational
+                burden, allowing them to focus on strategic work. <br /><br />
+                <strong>Impact:</strong> Product reviews were finally published, significantly
+                improving user trust and engagement, while freeing up team resources for
+                higher-value tasks.
               </p>
             </v-card-text>
             <v-card-actions>
