@@ -120,8 +120,11 @@ import {
               <v-card-subtitle class="text-h6">YouNoodle</v-card-subtitle>
               <v-card-text class="px-8 text-body-1">
                 <ul>
-                  <li>Maintaining and refactoring legacy code to reduce backend response times</li>
-                  <li>Migrating legacy systems to improve maintainability and scalability</li>
+                  <li>Migrating legacy systems to enhance maintainability and scalability.</li>
+                  <li>
+                    Modernizing and migrating legacy systems for better maintainability and
+                    scalability.
+                  </li>
                 </ul>
               </v-card-text>
             </v-card>
@@ -146,8 +149,8 @@ import {
                     user engagement and conversion rates by simplifying product discovery.
                   </li>
                   <li>
-                    Automated content classification workflows using OpenAI APIs, reducing manual
-                    effort and ensuring consistent categorization across the platform.
+                    Orchestrated content tagging and classification via OpenAI APIs, minimizing
+                    manual work and improving consistency across the platform.
                   </li>
                   <li>
                     Designed and developed a reusable frontend component library, accelerating

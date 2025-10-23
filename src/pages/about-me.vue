@@ -65,11 +65,9 @@ import { VCard, VRow, VCol } from 'vuetify/components'
         <h2 class="text-h4 mb-4">Beyond the code 🌟</h2>
         <v-card elevation="2" class="pa-5" color="secondary" variant="tonal">
           <p class="text-body-1 text-justify">
-            I focus on code quality through practical approaches: self-documenting variable names,
-            avoiding code duplication, and maintaining low cognitive and cyclomatic complexity.
-            Test-driven development and design patterns? I use them when they add real value, not
-            just for the sake of it. Clear communication and problem solving aren't just soft skills
-            to me, they're essential tools in my toolkit.
+            My approach to code quality is pragmatic: self-explanatory variable names, no duplicated
+            code, and controlled cognitive and cyclomatic complexity. As for TDD and design
+            patterns, I apply them when they truly help, not out of habit.
           </p>
         </v-card>
       </v-col>
@@ -82,7 +80,9 @@ import { VCard, VRow, VCol } from 'vuetify/components'
         <p class="text-body-1 mb-4">
           Have a challenging project? Need to modernize a legacy system? Or just want to talk tech?
         </p>
-        <p class="text-body-1 mb-4 text-secondary">Let's talk! Send a message.</p>
+        <p class="text-body-1 mb-4 text-secondary">
+          <a href="mailto:iamdleonor@gmail.com">Let's talk! Send me a message.</a>
+        </p>
       </v-col>
     </v-row>
   </section>
