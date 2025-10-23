@@ -48,11 +48,11 @@ import { VCard, VRow, VCol } from 'vuetify/components'
         <p class="text-body-1">
           I'm a Senior Backend Developer who loves turning complex systems into elegant, scalable
           solutions. My expertise lies in Laravel and Python ecosystems, and I have a special knack
-          for breathing new life into legacy code – transforming monolithic architectures into
+          for breathing new life into legacy code transforming monolithic architectures into
           modular, maintainable systems.
         </p>
         <p class="text-body-1 mt-3">
-          What really gets me excited? Integrating AI into real-world applications. From fine-tuning
+          What really gets me excited? Integrating AI into real world applications. From fine-tuning
           DistilBERT models to building intelligent recommendation systems, I'm passionate about
           making technology work smarter for users and businesses alike.
         </p>
@@ -65,10 +65,11 @@ import { VCard, VRow, VCol } from 'vuetify/components'
         <h2 class="text-h4 mb-4">Beyond the code 🌟</h2>
         <v-card elevation="2" class="pa-5" color="secondary" variant="tonal">
           <p class="text-body-1">
-            I believe in clean architecture (hexagonal architecture enthusiast here!), test-driven
-            development, and writing code that other developers will thank you for. Clear
-            communication and problem-solving aren't just soft skills to me – they're essential
-            tools in my toolkit.
+            I focus on code quality through practical approaches: self documenting variable names,
+            avoiding code duplication, and maintaining low cognitive and cyclomatic complexity.
+            Test-driven development and design patterns? I use them when they add real value, not
+            just for the sake of it. Clear communication and problem solving aren't just soft skills
+            to me, they're essential tools in my toolkit.
           </p>
         </v-card>
       </v-col>
