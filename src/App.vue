@@ -1,7 +1,9 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { VTabs, VTab, VTabsWindow, VTabsWindowItem, VContainer, VRow } from 'vuetify/components'
+import { VTabs, VTab, VTabsWindow, VTabsWindowItem, VContainer } from 'vuetify/components'
 import AboutMe from './pages/about-me.vue'
+import ProfessionalExperience from './pages/professional-experience.vue'
+import MyProjects from './pages/my-projects.vue'
 const tab = ref(1)
 </script>
 
@@ -17,22 +19,22 @@ const tab = ref(1)
       <v-tabs-window v-model="tab">
         <!-- Who are -->
         <v-tabs-window-item :key="1" :value="1">
-          <v-container>
+          <v-container fluid>
             <AboutMe></AboutMe>
           </v-container>
         </v-tabs-window-item>
 
         <!-- Professional -->
         <v-tabs-window-item :key="2" :value="2">
-          <v-container>
-            <v-row>Professional</v-row>
+          <v-container fluid>
+            <ProfessionalExperience></ProfessionalExperience>
           </v-container>
         </v-tabs-window-item>
 
         <!-- Projects -->
         <v-tabs-window-item :key="3" :value="3">
-          <v-container>
-            <v-row>Projects</v-row>
+          <v-container fluid>
+            <MyProjects></MyProjects>
           </v-container>
         </v-tabs-window-item>
       </v-tabs-window>
