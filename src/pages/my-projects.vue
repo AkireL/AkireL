@@ -12,9 +12,15 @@ import { VCard, VCardActions, VChip, VRow, VCol, VCardText } from 'vuetify/compo
             <h3 class="text-h5 mb-2 pa-4" style="min-height: 65px">Kitchen Planner</h3>
             <v-card-text>
               <p class="text-body-1 text-justify">
-                A web application (Laravel, Vue.js, Python) in development designed to revolutionize
-                meal planning. It generates automated weekly recipes and meal plans, significantly
-                optimizing meal preparation and reducing decision fatigue for users.
+                <strong>Challenge:</strong> Daily meal planning is a time-consuming task that often
+                leads to decision fatigue and suboptimal dietary choices for individuals and
+                families. <br /><br />
+                <strong>Solution:</strong> Developing a web application that generates automated
+                weekly recipes and personalized meal plans. This system leverages intelligent
+                algorithms to optimize meal preparation and nutritional balance. <br /><br />
+                <strong>Impact:</strong> Aims to revolutionize meal planning by significantly
+                reducing user effort and decision fatigue, promoting healthier eating habits, and
+                saving valuable time for users. Currently in development.
               </p>
             </v-card-text>
             <v-card-actions>
