@@ -104,6 +104,7 @@ import {
                 role="list"
                 aria-label="DevOps tools and platforms"
               >
+                <v-chip class="ma-1" color="warning" label role="listitem">Git</v-chip>
                 <v-chip class="ma-1" color="warning" label role="listitem">Docker</v-chip>
                 <v-chip class="ma-1" color="warning" label role="listitem">AWS Lambda</v-chip>
                 <v-chip class="ma-1" color="warning" label role="listitem">GCP</v-chip>
