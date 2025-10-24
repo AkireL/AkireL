@@ -33,7 +33,7 @@ import { VCard, VRow, VCol } from 'vuetify/components'
 
     <v-row justify="center" class="mt-6">
       <v-col cols="12" md="10" lg="8">
-        <v-card elevation="3" class="pa-6" color="primary" variant="tonal">
+        <v-card elevation="3" class="pa-6" color="blue-lighten-4">
           <p class="text-body-1 text-center mb-0">
             Senior Backend Developer specialized in scalable solutions, microservices migration & AI
             integration.
@@ -63,7 +63,7 @@ import { VCard, VRow, VCol } from 'vuetify/components'
     <v-row justify="center" class="mt-10">
       <v-col cols="12" md="10" lg="8">
         <h2 class="text-h4 mb-4">Beyond the code 🌟</h2>
-        <v-card elevation="2" class="pa-5" color="secondary" variant="tonal">
+        <v-card elevation="2" class="pa-5" color="green-lighten-4">
           <p class="text-body-1 text-justify">
             My approach to code quality is pragmatic: self-explanatory variable names, no duplicated
             code, and controlled cognitive and cyclomatic complexity. As for TDD and design
