@@ -127,6 +127,53 @@ import { VCard, VCardActions, VChip, VRow, VCol, VCardText } from 'vuetify/compo
               </v-card-actions>
             </v-card>
           </v-col>
+
+          <v-col cols="12" md="6">
+            <v-card
+              href="https://akirel.github.io/shopping-vue/#/"
+              target="_blank"
+              elevation="2"
+              class="h-100"
+              role="article"
+              aria-labelledby="shopping-vue-title"
+            >
+              <h3 id="shopping-vue-title" class="text-h5 mb-2 pa-4" style="min-height: 65px">
+                Shopping List
+              </h3>
+              <v-card-text>
+                <p class="text-body-1 text-left">
+                  <strong>Challenge:</strong> Managing shopping lists can be disorganized and
+                  inefficient, often resulting in forgotten items, duplicate purchases, and lack of
+                  budget control during grocery shopping trips.
+                </p>
+                <p class="text-body-1 text-left mt-3">
+                  <strong>Solution:</strong> Developing a web application that allows users to
+                  create, organize, and manage their shopping lists digitally with real-time expense
+                  tracking. This system provides an intuitive interface for adding items with
+                  prices, automatically calculating total spending, and maintaining persistent
+                  storage across sessions.
+                </p>
+                <p class="text-body-1 text-left mt-3">
+                  <strong>Impact:</strong> Aims to streamline the shopping experience by providing a
+                  centralized platform for list management and budget control, helping users track
+                  their spending in real-time, reduce overspending, improve shopping efficiency, and
+                  make more informed purchasing decisions. Successfully deployed and functional.
+                </p>
+              </v-card-text>
+              <v-card-actions>
+                <v-chip
+                  size="small"
+                  class="mt-2"
+                  color="success"
+                  label
+                  role="status"
+                  aria-label="Project status: Deployed"
+                >
+                  Deployed
+                </v-chip>
+              </v-card-actions>
+            </v-card>
+          </v-col>
         </v-row>
       </v-col>
     </v-row>
