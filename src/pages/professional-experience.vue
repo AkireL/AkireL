@@ -22,67 +22,60 @@ import {
         </h2>
         <v-row>
           <v-col cols="12" md="4">
-            <v-card
-              elevation="2"
-              class="pa-4"
-              min-height="250"
-              role="article"
-              aria-labelledby="languages-heading"
-            >
+            <v-card elevation="2" class="pa-4" min-height="200" role="article" aria-labelledby="languages-heading">
               <h3 id="languages-heading" class="text-h5 mb-3">Languages</h3>
-              <div
-                class="d-flex align-content-start flex-wrap"
-                role="list"
-                aria-label="Programming languages"
-              >
-                <v-chip class="ma-1" label role="listitem">PHP</v-chip>
+              <div class="d-flex align-content-start flex-wrap" role="list" aria-label="Programming languages">
                 <v-chip class="ma-1" label role="listitem">Python</v-chip>
-                <v-chip class="ma-1" label role="listitem">TypeScript</v-chip>
+                <v-chip class="ma-1" label role="listitem">PHP</v-chip>
                 <v-chip class="ma-1" label role="listitem">JavaScript</v-chip>
+                <v-chip class="ma-1" label role="listitem">TypeScript</v-chip>
               </div>
             </v-card>
           </v-col>
 
           <v-col cols="12" md="4">
-            <v-card
-              elevation="2"
-              class="pa-4"
-              min-height="250"
-              role="article"
-              aria-labelledby="frameworks-heading"
-            >
+            <v-card elevation="2" class="pa-4" min-height="200" role="article" aria-labelledby="frameworks-heading">
               <h3 id="frameworks-heading" class="text-h5 mb-3">Frameworks</h3>
-              <div
-                class="d-flex align-content-start flex-wrap"
-                role="list"
-                aria-label="Frameworks and libraries"
-              >
+              <div class="d-flex align-content-start flex-wrap" role="list" aria-label="Frameworks">
                 <v-chip class="ma-1" color="green" label role="listitem">Laravel</v-chip>
+                <v-chip class="ma-1" color="green" label role="listitem">PHPUnit</v-chip>
+                <v-chip class="ma-1" color="green" label role="listitem">Pest</v-chip>
                 <v-chip class="ma-1" color="green" label role="listitem">FastAPI</v-chip>
-                <v-chip class="ma-1" color="green" label role="listitem">Vue.js</v-chip>
-                <v-chip class="ma-1" color="green" label role="listitem">ReactJS</v-chip>
+                <v-chip class="ma-1" color="green" label role="listitem">Django</v-chip>
                 <v-chip class="ma-1" color="green" label role="listitem">Tailwind CSS</v-chip>
-                <v-chip class="ma-1" color="green" label role="listitem">Livewire</v-chip>
-                <v-chip class="ma-1" color="green" label role="listitem">Alpine.js</v-chip>
-                <v-chip class="ma-1" color="green" label role="listitem">Vuetify</v-chip>
               </div>
             </v-card>
           </v-col>
 
           <v-col cols="12" md="4">
-            <v-card
-              elevation="2"
-              class="pa-4"
-              min-height="250"
-              role="article"
-              aria-labelledby="databases-heading"
-            >
+            <v-card elevation="2" class="pa-4" min-height="200" role="article" aria-labelledby="bundlers-heading">
+              <h3 id="bundlers-heading" class="text-h5 mb-3">Bundlers</h3>
+              <div class="d-flex align-content-start flex-wrap" role="list" aria-label="Bundlers">
+                <v-chip class="ma-1" color="orange" label role="listitem">Vite</v-chip>
+                <v-chip class="ma-1" color="orange" label role="listitem">Webpack</v-chip>
+              </div>
+            </v-card>
+          </v-col>
+
+          <v-col cols="12" md="4">
+            <v-card elevation="2" class="pa-4" min-height="200" role="article" aria-labelledby="libraries-heading">
+              <h3 id="libraries-heading" class="text-h5 mb-3">Libraries</h3>
+              <div class="d-flex align-content-start flex-wrap" role="list" aria-label="Libraries">
+                <v-chip class="ma-1" color="secondary" label role="listitem">Inertia</v-chip>
+                <v-chip class="ma-1" color="secondary" label role="listitem">Pinia</v-chip>
+                <v-chip class="ma-1" color="secondary" label role="listitem">pandas</v-chip>
+                <v-chip class="ma-1" color="secondary" label role="listitem">Vue.js</v-chip>
+                <v-chip class="ma-1" color="secondary" label role="listitem">ReactJs</v-chip>
+                <v-chip class="ma-1" color="secondary" label role="listitem">Vuetify</v-chip>
+                <v-chip class="ma-1" color="secondary" label role="listitem">JQuery</v-chip>
+              </div>
+            </v-card>
+          </v-col>
+
+          <v-col cols="12" md="4">
+            <v-card elevation="2" class="pa-4" min-height="200" role="article" aria-labelledby="databases-heading">
               <h3 id="databases-heading" class="text-h5 mb-3">Databases</h3>
-              <div
-                class="d-flex align-content-start flex-wrap"
-                role="list"
-                aria-label="Database technologies"
-              >
+              <div class="d-flex align-content-start flex-wrap" role="list" aria-label="Databases">
                 <v-chip class="ma-1" color="primary" label role="listitem">MySQL</v-chip>
                 <v-chip class="ma-1" color="primary" label role="listitem">PostgreSQL</v-chip>
                 <v-chip class="ma-1" color="primary" label role="listitem">Redis</v-chip>
@@ -91,95 +84,62 @@ import {
           </v-col>
 
           <v-col cols="12" md="4">
-            <v-card
-              elevation="2"
-              class="pa-4"
-              min-height="250"
-              role="article"
-              aria-labelledby="devops-heading"
-            >
+            <v-card elevation="2" class="pa-4" min-height="200" role="article" aria-labelledby="apis-heading">
+              <h3 id="apis-heading" class="text-h5 mb-3">APIs & Protocols</h3>
+              <div class="d-flex align-content-start flex-wrap" role="list" aria-label="APIs and Protocols">
+                <v-chip class="ma-1" color="purple" label role="listitem">REST</v-chip>
+                <v-chip class="ma-1" color="purple" label role="listitem">WebSockets</v-chip>
+                <v-chip class="ma-1" color="purple" label role="listitem">JWT</v-chip>
+                <v-chip class="ma-1" color="purple" label role="listitem">OAuth2</v-chip>
+              </div>
+            </v-card>
+          </v-col>
+
+          <v-col cols="12" md="4">
+            <v-card elevation="2" class="pa-4" min-height="200" role="article" aria-labelledby="devops-heading">
               <h3 id="devops-heading" class="text-h5 mb-3">DevOps</h3>
-              <div
-                class="d-flex align-content-start flex-wrap"
-                role="list"
-                aria-label="DevOps tools and platforms"
-              >
-                <v-chip class="ma-1" color="warning" label role="listitem">Git</v-chip>
+              <div class="d-flex align-content-start flex-wrap" role="list" aria-label="DevOps">
                 <v-chip class="ma-1" color="warning" label role="listitem">Docker</v-chip>
                 <v-chip class="ma-1" color="warning" label role="listitem">AWS Lambda</v-chip>
-                <v-chip class="ma-1" color="warning" label role="listitem">GCP</v-chip>
+                <v-chip class="ma-1" color="warning" label role="listitem">AWS S3</v-chip>
+                <v-chip class="ma-1" color="warning" label role="listitem">git</v-chip>
                 <v-chip class="ma-1" color="warning" label role="listitem">GitHub Actions</v-chip>
+                <v-chip class="ma-1" color="warning" label role="listitem">pipelines</v-chip>
+                <v-chip class="ma-1" color="warning" label role="listitem">Sentry</v-chip>
               </div>
             </v-card>
           </v-col>
 
           <v-col cols="12" md="4">
-            <v-card
-              elevation="2"
-              class="pa-4"
-              min-height="250"
-              role="article"
-              aria-labelledby="libraries-heading"
-            >
-              <h3 id="libraries-heading" class="text-h5 mb-3">Libraries</h3>
-              <div
-                class="d-flex align-content-start flex-wrap"
-                role="list"
-                aria-label="Additional libraries"
-              >
-                <v-chip class="ma-1" color="secondary" label role="listitem">Inertia</v-chip>
-                <v-chip class="ma-1" color="secondary" label role="listitem">Vuetify</v-chip>
-                <v-chip class="ma-1" color="secondary" label role="listitem">OpenAI</v-chip>
-                <v-chip class="ma-1" color="secondary" label role="listitem">VuePress</v-chip>
-              </div>
-            </v-card>
-          </v-col>
-
-          <v-col cols="12" md="4">
-            <v-card
-              elevation="2"
-              class="pa-4"
-              min-height="250"
-              role="article"
-              aria-labelledby="testing-heading"
-            >
-              <h3 id="testing-heading" class="text-h5 mb-3">Testing & Architecture</h3>
-              <div
-                class="d-flex align-content-start flex-wrap"
-                role="list"
-                aria-label="Testing tools and architecture patterns"
-              >
-                <v-chip class="ma-1" color="info" label role="listitem">PHPUnit</v-chip>
-                <v-chip class="ma-1" color="info" label role="listitem">Pest</v-chip>
+            <v-card elevation="2" class="pa-4" min-height="200" role="article" aria-labelledby="architecture-heading">
+              <h3 id="architecture-heading" class="text-h5 mb-3">Architecture & Engineering</h3>
+              <div class="d-flex align-content-start flex-wrap" role="list" aria-label="Architecture and Engineering">
+                <v-chip class="ma-1" color="info" label role="listitem">Clean Architecture</v-chip>
+                <v-chip class="ma-1" color="info" label role="listitem">Event-Driven Design</v-chip>
+                <v-chip class="ma-1" color="info" label role="listitem">System Performance Optimization</v-chip>
                 <v-chip class="ma-1" color="info" label role="listitem">TDD</v-chip>
-                <v-chip class="ma-1" color="info" label role="listitem"
-                  >Hexagonal Architecture</v-chip
-                >
-                <v-chip class="ma-1" color="info" label role="listitem">RESTful APIs</v-chip>
+                <v-chip class="ma-1" color="info" label role="listitem">OWASP</v-chip>
               </div>
             </v-card>
           </v-col>
 
           <v-col cols="12" md="4">
-            <v-card
-              elevation="2"
-              class="pa-4"
-              min-height="250"
-              role="article"
-              aria-labelledby="soft-skills-heading"
-            >
+            <v-card elevation="2" class="pa-4" min-height="200" role="article" aria-labelledby="learning-heading">
+              <h3 id="learning-heading" class="text-h5 mb-3">Learning & Training</h3>
+              <div class="d-flex align-content-start flex-wrap" role="list" aria-label="Learning and Training">
+                <v-chip class="ma-1" color="pink" label role="listitem">Scikit-learn</v-chip>
+                <v-chip class="ma-1" color="pink" label role="listitem">TensorFlow & Keras</v-chip>
+              </div>
+            </v-card>
+          </v-col>
+
+          <v-col cols="12" md="4">
+            <v-card elevation="2" class="pa-4" min-height="200" role="article" aria-labelledby="soft-skills-heading">
               <h3 id="soft-skills-heading" class="text-h5 mb-3">Soft Skills</h3>
-              <div
-                class="d-flex align-content-start flex-wrap"
-                role="list"
-                aria-label="Soft skills"
-              >
-                <v-chip class="ma-1" color="secondary" label role="listitem"
-                  >Clear communication</v-chip
-                >
-                <v-chip class="ma-1" color="secondary" label role="listitem"
-                  >Problem-solving</v-chip
-                >
+              <div class="d-flex align-content-start flex-wrap" role="list" aria-label="Soft Skills">
+                <v-chip class="ma-1" color="teal" label role="listitem">Clear communication</v-chip>
+                <v-chip class="ma-1" color="teal" label role="listitem">Problem-solving</v-chip>
+                <v-chip class="ma-1" color="teal" label role="listitem">Adaptability</v-chip>
               </div>
             </v-card>
           </v-col>
