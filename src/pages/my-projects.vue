@@ -130,7 +130,6 @@ import { VCard, VCardActions, VChip, VRow, VCol, VCardText } from 'vuetify/compo
 
           <v-col cols="12" md="6">
             <v-card
-              href="https://akirel.github.io/shopping-vue/#/"
               target="_blank"
               elevation="2"
               class="h-100"
@@ -168,6 +167,8 @@ import { VCard, VCardActions, VChip, VRow, VCol, VCardText } from 'vuetify/compo
                   label
                   role="status"
                   aria-label="Project status: Deployed"
+                  href="https://shopping-vue.iamdleonor.workers.dev/"
+                  target="_blank"
                 >
                   Deployed
                 </v-chip>
